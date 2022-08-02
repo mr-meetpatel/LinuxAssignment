@@ -93,6 +93,12 @@ and from process table we get all info.
   ans : i have one service in /etc/systemd/system in directory name myownservice.service and to check log of that service 
   use this command :
   
+  first start the service by 
+  
+  systemctl start myownservice.service
+  
+  after that
+  
   systemctl status myownservice.service
   
   or
