@@ -110,7 +110,10 @@ and from process table we get all info.
  Ans :  tar -czf Meet_Patel.tar.gz Meet_Patel
   
 -c - instructs tar to create a new archive.
+
 -z - sets the compression method to gzip.
+
 -f archive-name.tar.gz - specifies the archive name.
+
 file-name... a space-separated list of files and directories to be added to the archive.
 
